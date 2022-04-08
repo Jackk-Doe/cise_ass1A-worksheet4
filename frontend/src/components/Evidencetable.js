@@ -33,7 +33,7 @@ const Table = ({columns, data}) => {
     )
 
     return (
-        <>
+        <div>
         <table {...getTableProps()}>
             <thread>
                 {headerGroups.map(headerGroup => (
@@ -115,7 +115,7 @@ const Table = ({columns, data}) => {
                 ))}
               </select>
         </div>
-        </>
+        </div>
     );
 }
 
